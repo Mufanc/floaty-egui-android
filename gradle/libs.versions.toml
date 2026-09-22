@@ -1,0 +1,13 @@
+[versions]
+agp = "9.4.1"
+refine = "4.4.0"
+
+[libraries]
+refine-annotation = { module = "dev.rikka.tools.refine:annotation", version.ref = "refine" }
+refine-annotation-processor = { module = "dev.rikka.tools.refine:annotation-processor", version.ref = "refine" }
+refine-runtime = { module = "dev.rikka.tools.refine:runtime", version.ref = "refine" }
+
+[plugins]
+agp-app = { id = "com.android.application", version.ref = "agp" }
+agp-lib = { id = "com.android.library", version.ref = "agp" }
+refine = { id = "dev.rikka.tools.refine", version.ref = "refine" }

@@ -14,3 +14,7 @@ adb shell su -c 'chmod 755 /data/local/tmp/floaty-egui && /data/local/tmp/floaty
 Pass `--hide-from-screenshots` to omit the layer from screenshots and screen
 recordings. Kotlin watches display rotation and resizes the existing buffer
 queue; the Rust renderer picks up the new EGL surface dimensions automatically.
+
+## Acknowledgments
+
+Thanks to [enenH/AndroidNativeDrawPlus](https://github.com/enenH/AndroidNativeDrawPlus) for serving as a reference for this project.
